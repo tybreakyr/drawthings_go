@@ -1,4 +1,4 @@
-# Draw Things Go Client Library
+# Unofficial Draw Things Go Client Library
 
 A robust, well-tested Go client library for the [Draw Things](https://drawthings.ai) API. Draw Things is an AI-assisted image generation application that allows users to create images from textual descriptions using advanced AI models.
 
