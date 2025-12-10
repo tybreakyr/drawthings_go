@@ -2,7 +2,7 @@
 
 A robust, well-tested Go client library for the [Draw Things](https://drawthings.ai) API. Draw Things is an AI-assisted image generation application that allows users to create images from textual descriptions using advanced AI models.
 
-> **⚠️ Disclaimer**: This is an **unofficial** library and is **not affiliated with, endorsed by, or connected to** the makers of the Draw Things application. This library is a community-maintained project created independently to provide a Go client for the Draw Things API.
+> **⚠️ Disclaimer**: This is an **unofficial** library and is **not affiliated with, endorsed by, or connected to** the makers of the Draw Things application. This library is a solo developer maintained project created independently to provide a Go client for the Draw Things API.
 
 ## Features
 
@@ -273,5 +273,21 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## Acknowledgments
 
-This library is built for the Draw Things API, which follows a structure similar to Stable Diffusion's API.
+- This library is built for the Draw Things API, which follows a structure similar to Stable Diffusion's API. 
+- I acknowledge the entire human race for creating all the data that was scraped, processed, and fed into the AI models that I used to "write" this with.
 
+## How I "wrote" this
+I had an ai search the web for information on interfacing with the Draw Things Application and create a markdown file with the findings that could be used by a copilot to create a client. 
+I then had Cursor, in plan mode, create a plan with this prompt:
+
+Create a plan for a new client library written in go in a new folder called "drawthings_go".
+- Use @DRAW_THINGS_API.md  as your source of truth.
+- The library should be built for opensource.
+- It must be robust and easy to debug.
+- It must have tests to cover exposed functions/types/features
+- It must come with a simple to use cli
+- It must come with it's own wiki using markdown
+- It must have a README.md file.
+- Use Go best practices @Go for project structure. 
+
+The only changes I made were to the documentation where Cursor was giving out acknowledgements and added the Unofficial label. 
