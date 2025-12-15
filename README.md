@@ -290,4 +290,4 @@ Create a plan for a new client library written in go in a new folder called "dra
 - It must have a README.md file.
 - Use Go best practices @Go for project structure. 
 
-The only changes I made were to the documentation where Cursor was giving out acknowledgements and added the Unofficial label. 
+The only changes I made were to the documentation is where Cursor was giving out acknowledgements and added the Unofficial label. 
